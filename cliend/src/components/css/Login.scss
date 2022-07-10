@@ -1,0 +1,232 @@
+// // #login {
+// //     width: 100%;
+// //     height: 700px;
+// //     background-color: aquamarine;
+// // }
+
+// // #gif {
+// //     width: 100%;
+// //     height: 200px;
+// //     background-color: rgb(36, 136, 103);
+// // }
+
+
+// input[type="text"],
+// input[type="password"] {
+//     height: 25px;
+//     border: 1px solid rgba(0, 0, 0, 0.2);
+// }
+
+// input[type="submit"] {
+//     margin-top: 10px;
+//     cursor: pointer;
+//     font-size: 15px;
+//     background: #01d28e;
+//     border: 1px solid #01d28e;
+//     color: #fff;
+//     padding: 10px 20px;
+// }
+
+// input[type="submit"]:hover {
+//     background: #6cf0c2;
+// }
+
+// .button-container {
+//     display: flex;
+//     justify-content: center;
+// }
+
+// .login-form {
+//     padding-top: 5rem;
+//     background-color: white;
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+// }
+
+// .list-container {
+//     display: flex;
+// }
+
+// .error {
+//     color: red;
+//     font-size: 12px;
+// }
+
+// .title {
+//     font-size: 25px;
+//     margin-bottom: 20px;
+// }
+
+// .input-container {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 8px;
+//     margin: 10px;
+// }
+
+// .gg {
+//     margin-bottom: 20%;
+// }
+
+
+// .App-link {
+//     color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//     from {
+//         transform: rotate(0deg);
+//     }
+
+//     to {
+//         transform: rotate(360deg);
+//     }
+// }
+
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.left,
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or {
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+
+.line {
+    width: 0.5px;
+    height: 70%;
+    background-color: lightgray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.loginButton {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #df4930;
+}
+
+.facebook {
+    background-color: #507cc0;
+}
+
+.github {
+    background-color: black;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input {
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 200px;
+    background-color: rgba(128, 0, 128, 0.671);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.loginTitle {
+    position: absolute;
+    top: 150px;
+    color: lightgray
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .wrapper {
+        width: 65%;
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .loginTitle {
+        display: none;
+    }
+
+    .center {
+        width: 100%;
+        position: relative;
+    }
+
+    .left {
+        padding: 20px;
+    }
+
+    .right {
+        padding: 20px;
+    }
+
+    .line {
+        height: 0.5px;
+        width: 300px;
+    }
+}
